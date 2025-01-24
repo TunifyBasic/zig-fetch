@@ -29,7 +29,7 @@ there are three simple steps to use zig-fetch
 
 here's an example of a `build.zig` file:
 
-```
+```zig
 const fetch = @import("fetch.zig");
 const std = @import("std");
 
